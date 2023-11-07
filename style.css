@@ -1,0 +1,14 @@
+body{
+    background: white ;
+}
+
+
+.post{
+
+    display: flex;
+}
+
+.post-icons{
+
+    display:flex;
+}
