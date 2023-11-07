@@ -1,14 +1,59 @@
 body{
-    background: white ;
+    background: blue;
 }
 
 
 .post{
+    background: white;
+    /* display: flex; */
+    border: 1px solid #000;
+    width: 400px;
+    height: 430px;
+    margin: auto;
 
-    display: flex;
+}
+
+.logo{
+    padding: 15px;
+    float: left;
+}
+
+.nombre{
+    float: left;
+    margin: 10px;
+}
+
+p{
+
+    font-size: small;
+    margin: initial;
+}
+
+.puntitos{
+    float: right;
+    padding: 15px;
+}
+
+
+.post-img img{
+    width: 400px;
 }
 
 .post-icons{
 
-    display:flex;
+    /* display:flex; */
+    padding: 10px 10px 10px 10px;
+    font-size: 24px;
+
+}
+
+.fa-bookmark{
+    float:right;
+}
+
+.post-body{
+
+    padding: 10px;
+    text-align: justify;
+    font-size: medium;
 }
